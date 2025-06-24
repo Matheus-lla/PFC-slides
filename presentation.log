@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.5.21)  24 JUN 2025 10:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.5.21)  24 JUN 2025 11:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -941,23 +941,23 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 [2
 
  <./lib/layouts/vertical_bg.pdf> <./lib/logos/infw2.png>]
-Overfull \hbox (2.96399pt too wide) in paragraph at lines 73--73
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 70--70
 [][][][]  
  []
 
-LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 73.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 73.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
-(Font)              `T1/Roboto-LF/bold/n' on input line 73.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 10.95pt on input line 73.
 
 Overfull \hbox (45.52718pt too wide) has occurred while \output is active
  [] 
  []
 
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
+(Font)              `T1/Roboto-LF/regular/n' on input line 70.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 24.88pt on input line 70.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
+(Font)              `T1/Roboto-LF/bold/n' on input line 70.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
+(Font)              scaled to size 24.88pt on input line 70.
 
 Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 [][][][] 
@@ -965,11 +965,19 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 
 [3
 
-]
+ <./lib/layouts/title_bg.pdf>]
 Overfull \hbox (2.96399pt too wide) in paragraph at lines 82--82
 [][][][]  
  []
 
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
+(Font)              `T1/Roboto-LF/regular/n' on input line 82.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 12.0pt on input line 82.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
+(Font)              `T1/Roboto-LF/bold/n' on input line 82.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
+(Font)              scaled to size 10.95pt on input line 82.
 
 Overfull \hbox (45.52718pt too wide) has occurred while \output is active
  [] 
@@ -981,6 +989,30 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
  []
 
 [4
+
+]
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[5
+
+]
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[6
 
 ]
 Overfull \hbox (2.96399pt too wide) in paragraph at lines 91--91
@@ -997,57 +1029,9 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[5
-
-]
-Overfull \hbox (2.96399pt too wide) in paragraph at lines 117--117
-[][][][]  
- []
-
-
-Overfull \hbox (45.52718pt too wide) has occurred while \output is active
- [] 
- []
-
-
-Overfull \hbox (2.96399pt too wide) has occurred while \output is active
-[][][][] 
- []
-
-[6
-
-]
-Overfull \hbox (2.96399pt too wide) in paragraph at lines 143--143
-[][][][]  
- []
-
-
-Overfull \hbox (45.52718pt too wide) has occurred while \output is active
- [] 
- []
-
-
-Overfull \hbox (2.96399pt too wide) has occurred while \output is active
-[][][][] 
- []
-
 [7
 
 ]
-Overfull \hbox (2.96399pt too wide) in paragraph at lines 158--158
-[][][][]  
- []
-
-<figs/final-true1t.png, id=129, 803.0pt x 602.25pt>
-File: figs/final-true1t.png Graphic file (type png)
-<use figs/final-true1t.png>
-Package pdftex.def Info: figs/final-true1t.png  used on input line 158.
-(pdftex.def)             Requested size: 262.00706pt x 196.51004pt.
-
-Overfull \vbox (98.81314pt too high) detected at line 158
- []
-
-
 Overfull \hbox (45.52718pt too wide) has occurred while \output is active
  [] 
  []
@@ -1059,12 +1043,7 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 
 [8
 
- <./figs/final-true1t.png>]
-Overfull \hbox (2.96399pt too wide) in paragraph at lines 173--173
-[][][][]  
- []
-
-
+]
 Overfull \hbox (45.52718pt too wide) has occurred while \output is active
  [] 
  []
@@ -1077,7 +1056,7 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 [9
 
 ]
-Overfull \hbox (2.96399pt too wide) in paragraph at lines 188--188
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 100--100
 [][][][]  
  []
 
@@ -1094,25 +1073,6 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 [10
 
 ]
-Overfull \hbox (2.96399pt too wide) in paragraph at lines 222--222
-[][][][]  
- []
-
-<figs/cluster_1_s4f75.png, id=145, 803.0pt x 602.25pt>
-File: figs/cluster_1_s4f75.png Graphic file (type png)
-<use figs/cluster_1_s4f75.png>
-Package pdftex.def Info: figs/cluster_1_s4f75.png  used on input line 222.
-(pdftex.def)             Requested size: 187.14873pt x 140.36168pt.
-<figs/label_1_s4f75.png, id=146, 803.0pt x 602.25pt>
-File: figs/label_1_s4f75.png Graphic file (type png)
-<use figs/label_1_s4f75.png>
-Package pdftex.def Info: figs/label_1_s4f75.png  used on input line 222.
-(pdftex.def)             Requested size: 187.14873pt x 140.36168pt.
-
-Overfull \vbox (164.52345pt too high) detected at line 222
- []
-
-
 Overfull \hbox (45.52718pt too wide) has occurred while \output is active
  [] 
  []
@@ -1124,21 +1084,7 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 
 [11
 
- <./figs/cluster_1_s4f75.png> <./figs/label_1_s4f75.png>]
-Overfull \hbox (2.96399pt too wide) in paragraph at lines 237--237
-[][][][]  
- []
-
-<figs/plot-1.png, id=151, 847.7271pt x 1425.8871pt>
-File: figs/plot-1.png Graphic file (type png)
-<use figs/plot-1.png>
-Package pdftex.def Info: figs/plot-1.png  used on input line 237.
-(pdftex.def)             Requested size: 224.58075pt x 377.7495pt.
-
-Overfull \vbox (320.85262pt too high) detected at line 237
- []
-
-
+]
 Overfull \hbox (45.52718pt too wide) has occurred while \output is active
  [] 
  []
@@ -1150,8 +1096,8 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 
 [12
 
- <./figs/plot-1.png>]
-Overfull \hbox (2.96399pt too wide) in paragraph at lines 251--251
+]
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 110--110
 [][][][]  
  []
 
@@ -1168,10 +1114,14 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 [13
 
 ]
-Overfull \hbox (2.96399pt too wide) in paragraph at lines 275--275
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 136--136
 [][][][]  
  []
 
+LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
+(Font)              `T1/Roboto-LF/bold/n' on input line 136.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
+(Font)              scaled to size 12.0pt on input line 136.
 
 Overfull \hbox (45.52718pt too wide) has occurred while \output is active
  [] 
@@ -1185,19 +1135,6 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 [14
 
 ]
-Overfull \hbox (2.96399pt too wide) in paragraph at lines 283--283
-[][][][]  
- []
-
-LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 283.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 20.74pt on input line 283.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
-(Font)              `T1/Roboto-LF/bold/n' on input line 283.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 20.74pt on input line 283.
-
 Overfull \hbox (45.52718pt too wide) has occurred while \output is active
  [] 
  []
@@ -1210,6 +1147,649 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 [15
 
 ]
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[16
+
+]
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[17
+
+]
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[18
+
+]
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[19
+
+]
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 147--147
+[][][][]  
+ []
+
+
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[20
+
+]
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 170--170
+[][][][]  
+ []
+
+
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[21
+
+]
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 180--180
+[][][][]  
+ []
+
+
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[22
+
+]
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[23
+
+]
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[24
+
+]
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[25
+
+]
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 189--189
+[][][][]  
+ []
+
+<figs/final-true1t.png, id=235, 803.0pt x 602.25pt>
+File: figs/final-true1t.png Graphic file (type png)
+<use figs/final-true1t.png>
+Package pdftex.def Info: figs/final-true1t.png  used on input line 189.
+(pdftex.def)             Requested size: 187.14873pt x 140.36168pt.
+
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[26
+
+ <./figs/final-true1t.png>]
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 217--217
+[][][][]  
+ []
+
+
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[27
+
+]
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[28
+
+]
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[29
+
+]
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[30
+
+]
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 245--245
+[][][][]  
+ []
+
+
+Underfull \hbox (badness 2418) in paragraph at lines 245--245
+[]|\T1/Roboto-LF/regular/n/10.95 Agrupar os pon-tos re-manes-
+ []
+
+
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[31
+
+]
+Underfull \hbox (badness 2418) in paragraph at lines 245--245
+[]|\T1/Roboto-LF/regular/n/10.95 Agrupar os pon-tos re-manes-
+ []
+
+
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[32
+
+]
+Underfull \hbox (badness 2418) in paragraph at lines 245--245
+[]|\T1/Roboto-LF/regular/n/10.95 Agrupar os pon-tos re-manes-
+ []
+
+
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[33
+
+]
+Underfull \hbox (badness 2418) in paragraph at lines 245--245
+[]|\T1/Roboto-LF/regular/n/10.95 Agrupar os pon-tos re-manes-
+ []
+
+
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[34
+
+]
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 255--255
+[][][][]  
+ []
+
+
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[35
+
+]
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 289--289
+[][][][]  
+ []
+
+
+Overfull \vbox (51.22516pt too high) detected at line 289
+ []
+
+
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[36
+
+]
+Overfull \vbox (51.22516pt too high) detected at line 289
+ []
+
+
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[37
+
+]
+Overfull \vbox (51.22516pt too high) detected at line 289
+ []
+
+
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[38
+
+]
+<figs/cluster_1_s4f75.png, id=302, 803.0pt x 602.25pt>
+File: figs/cluster_1_s4f75.png Graphic file (type png)
+<use figs/cluster_1_s4f75.png>
+Package pdftex.def Info: figs/cluster_1_s4f75.png  used on input line 289.
+(pdftex.def)             Requested size: 187.14873pt x 140.36168pt.
+<figs/label_1_s4f75.png, id=303, 803.0pt x 602.25pt>
+File: figs/label_1_s4f75.png Graphic file (type png)
+<use figs/label_1_s4f75.png>
+Package pdftex.def Info: figs/label_1_s4f75.png  used on input line 289.
+(pdftex.def)             Requested size: 187.14873pt x 140.36168pt.
+
+Overfull \vbox (187.06923pt too high) detected at line 289
+ []
+
+
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[39
+
+ <./figs/cluster_1_s4f75.png> <./figs/label_1_s4f75.png>]
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 308--308
+[][][][]  
+ []
+
+
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[40
+
+]
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[41
+
+]
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[42
+
+]
+<figs/plot-1.png, id=325, 847.7271pt x 1425.8871pt>
+File: figs/plot-1.png Graphic file (type png)
+<use figs/plot-1.png>
+Package pdftex.def Info: figs/plot-1.png  used on input line 308.
+(pdftex.def)             Requested size: 224.58075pt x 377.7495pt.
+
+Overfull \vbox (338.79851pt too high) detected at line 308
+ []
+
+
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[43
+
+ <./figs/plot-1.png>]
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 318--318
+[][][][]  
+ []
+
+
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[44
+
+]
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 334--334
+[][][][]  
+ []
+
+
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[45
+
+]
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[46
+
+]
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[47
+
+]
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 358--358
+[][][][]  
+ []
+
+
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[48
+
+]
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[49
+
+]
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[50
+
+]
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[51
+
+]
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[52
+
+]
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[53
+
+]
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[54
+
+]
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[55
+
+]
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 385--385
+[][][][]  
+ []
+
+<lib/logos/infw.png, id=394, 638.385pt x 215.30438pt>
+File: lib/logos/infw.png Graphic file (type png)
+<use lib/logos/infw.png>
+Package pdftex.def Info: lib/logos/infw.png  used on input line 385.
+(pdftex.def)             Requested size: 126.54478pt x 42.67912pt.
+
+Overfull \hbox (51.68645pt too wide) in paragraph at lines 385--385
+ [][] 
+ []
+
+<lib/logos/ufgw.png, id=395, 220.57407pt x 81.30376pt>
+File: lib/logos/ufgw.png Graphic file (type png)
+<use lib/logos/ufgw.png>
+Package pdftex.def Info: lib/logos/ufgw.png  used on input line 385.
+(pdftex.def)             Requested size: 115.78964pt x 42.67912pt.
+
+Overfull \hbox (40.9313pt too wide) in paragraph at lines 385--385
+ [][] 
+ []
+
+
+Overfull \vbox (43.24524pt too high) detected at line 385
+ []
+
+
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[56
+
+ <./lib/logos/infw.png> <./lib/logos/ufgw.png>]
 \tf@nav=\write6
 \openout6 = `presentation.nav'.
 
@@ -1228,18 +1808,18 @@ Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: 56FB8649A2DDC8C1250FE52653BC19AB;650.
  ) 
 Here is how much of TeX's memory you used:
- 28360 strings out of 474222
- 555477 string characters out of 5748733
- 1934975 words of memory out of 5000000
- 49978 multiletter control sequences out of 15000+600000
- 652260 words of font info for 98 fonts, out of 8000000 for 9000
+ 28521 strings out of 474222
+ 557899 string characters out of 5748733
+ 1936975 words of memory out of 5000000
+ 50057 multiletter control sequences out of 15000+600000
+ 657059 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,14n,123p,457b,974s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,19n,123p,457b,1046s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on presentation.pdf (15 pages, 6228067 bytes).
+Output written on presentation.pdf (56 pages, 7161671 bytes).
 PDF statistics:
- 199 PDF objects out of 1000 (max. 8388607)
- 130 compressed objects within 2 object streams
- 36 named destinations out of 1000 (max. 500000)
- 143 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 449 PDF objects out of 1000 (max. 8388607)
+ 325 compressed objects within 4 object streams
+ 118 named destinations out of 1000 (max. 500000)
+ 153 words of extra memory for PDF output out of 10000 (max. 10000000)
 

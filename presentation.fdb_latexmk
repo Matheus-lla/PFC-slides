@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1750773156.977 "/home/matheus/Desktop/faculdade/PFC-slides/presentation.tex" "presentation.pdf" "presentation" 1750773159.73916 0
+["pdflatex"] 1750774226.89891 "/home/matheus/Desktop/faculdade/PFC-slides/presentation.tex" "presentation.pdf" "presentation" 1750774230.37643 0
   "/etc/texmf/web2c/texmf.cnf" 1747835485.01252 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/matheus/Desktop/faculdade/PFC-slides/presentation.tex" 1750773156.80198 12305 439b738ee8e3b7ffe3ab0592bc78344c ""
+  "/home/matheus/Desktop/faculdade/PFC-slides/presentation.tex" 1750774226.73163 14754 8fd3c6bf1007f1567186883cb110eaa5 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/roboto/rbto_b5rac7.enc" 1576101225 3075 0696ceafc85b8352a913efb9ba64bc17 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/google/roboto/Roboto-Bold-lf-t1--base.tfm" 1576101225 1840 1834297dad21c65d0f959ffe1bfe4fbd ""
@@ -247,11 +247,12 @@
   "lib/logos/infw.png" 1750776020 27102 a8458ccf435c80606c3e6cb378d3a4e7 ""
   "lib/logos/infw2.png" 1750776020 11467 11360d7f99f9699a96b9b047076aeaf0 ""
   "lib/logos/ufg_black.pdf" 1750776020 391083 d600093531d89162512d068389047ff5 ""
-  "presentation.aux" 1750773159.67399 3871 61eb66cf318a6ecfb4976a8dde6f2a95 "pdflatex"
-  "presentation.nav" 1750773159.67499 2412 416f7fb719a6db5645799d6fe847d40a "pdflatex"
-  "presentation.out" 1750773159.67499 650 56fb8649a2ddc8c1250fe52653bc19ab "pdflatex"
-  "presentation.tex" 1750773156.80198 12305 439b738ee8e3b7ffe3ab0592bc78344c ""
-  "presentation.toc" 1750773159.67499 269 67d3a76f3f3ceaeab88fff452bbf97a0 "pdflatex"
+  "lib/logos/ufgw.png" 1750776020 4534 24f7d8eda68b37e345c8997c3c70fb8a ""
+  "presentation.aux" 1750774230.29765 4667 6334ebd8088abc369ac3fd1696615ffa "pdflatex"
+  "presentation.nav" 1750774230.29865 2990 c6e4e08be1f3e702cd9b9786a0b498b0 "pdflatex"
+  "presentation.out" 1750774230.29865 650 56fb8649a2ddc8c1250fe52653bc19ab "pdflatex"
+  "presentation.tex" 1750774226.73163 14754 8fd3c6bf1007f1567186883cb110eaa5 ""
+  "presentation.toc" 1750774230.29865 271 f30585c32010dd4a5efa7c22846d6e75 "pdflatex"
   (generated)
   "presentation.aux"
   "presentation.log"
