@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.5.21)  24 JUN 2025 10:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.5.21)  24 JUN 2025 10:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/matheus/Desktop/faculdade/PFC slides/presentation.tex"
-(/home/matheus/Desktop/faculdade/PFC slides/presentation.tex
+**/home/matheus/Desktop/faculdade/PFC-slides/presentation.tex
+(/home/matheus/Desktop/faculdade/PFC-slides/presentation.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -941,26 +941,18 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 [2
 
  <./lib/layouts/vertical_bg.pdf> <./lib/logos/infw2.png>]
-Overfull \hbox (2.96399pt too wide) in paragraph at lines 80--80
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 73--73
 [][][][]  
  []
 
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 80.
+(Font)              `T1/Roboto-LF/regular/n' on input line 73.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 9.0pt on input line 80.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/m/it' aliased to
-(Font)              `T1/Roboto-LF/regular/it' on input line 80.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/it' will be
-(Font)              scaled to size 9.0pt on input line 80.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 80.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 80.
+(Font)              scaled to size 12.0pt on input line 73.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
-(Font)              `T1/Roboto-LF/bold/n' on input line 80.
+(Font)              `T1/Roboto-LF/bold/n' on input line 73.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 12.0pt on input line 80.
+(Font)              scaled to size 10.95pt on input line 73.
 
 Overfull \hbox (45.52718pt too wide) has occurred while \output is active
  [] 
@@ -974,14 +966,10 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 [3
 
 ]
-Overfull \hbox (2.96399pt too wide) in paragraph at lines 110--110
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 82--82
 [][][][]  
  []
 
-LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
-(Font)              `T1/Roboto-LF/bold/n' on input line 110.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 10.95pt on input line 110.
 
 Overfull \hbox (45.52718pt too wide) has occurred while \output is active
  [] 
@@ -995,15 +983,10 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 [4
 
 ]
-Overfull \hbox (2.96399pt too wide) in paragraph at lines 125--125
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 91--91
 [][][][]  
  []
 
-<readme/layouts.png, id=129, 1075.01625pt x 469.755pt>
-File: readme/layouts.png Graphic file (type png)
-<use readme/layouts.png>
-Package pdftex.def Info: readme/layouts.png  used on input line 125.
-(pdftex.def)             Requested size: 336.86542pt x 147.19948pt.
 
 Overfull \hbox (45.52718pt too wide) has occurred while \output is active
  [] 
@@ -1016,8 +999,8 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 
 [5
 
- <./readme/layouts.png>]
-Overfull \hbox (2.96399pt too wide) in paragraph at lines 161--161
+]
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 117--117
 [][][][]  
  []
 
@@ -1034,7 +1017,7 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 [6
 
 ]
-Overfull \hbox (2.96399pt too wide) in paragraph at lines 185--185
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 143--143
 [][][][]  
  []
 
@@ -1051,8 +1034,17 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 [7
 
 ]
-Overfull \hbox (2.96399pt too wide) in paragraph at lines 196--196
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 158--158
 [][][][]  
+ []
+
+<figs/final-true1t.png, id=129, 803.0pt x 602.25pt>
+File: figs/final-true1t.png Graphic file (type png)
+<use figs/final-true1t.png>
+Package pdftex.def Info: figs/final-true1t.png  used on input line 158.
+(pdftex.def)             Requested size: 262.00706pt x 196.51004pt.
+
+Overfull \vbox (98.81314pt too high) detected at line 158
  []
 
 
@@ -1060,14 +1052,6 @@ Overfull \hbox (45.52718pt too wide) has occurred while \output is active
  [] 
  []
 
-LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 196.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 24.88pt on input line 196.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
-(Font)              `T1/Roboto-LF/bold/n' on input line 196.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 24.88pt on input line 196.
 
 Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 [][][][] 
@@ -1075,8 +1059,8 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 
 [8
 
- <./lib/layouts/title_bg.pdf>]
-Overfull \hbox (2.96399pt too wide) in paragraph at lines 216--216
+ <./figs/final-true1t.png>]
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 173--173
 [][][][]  
  []
 
@@ -1092,7 +1076,12 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 
 [9
 
- <./lib/layouts/horizontal_bg.pdf> <./lib/logos/infw2.png>]
+]
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 188--188
+[][][][]  
+ []
+
+
 Overfull \hbox (45.52718pt too wide) has occurred while \output is active
  [] 
  []
@@ -1105,6 +1094,25 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 [10
 
 ]
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 222--222
+[][][][]  
+ []
+
+<figs/cluster_1_s4f75.png, id=145, 803.0pt x 602.25pt>
+File: figs/cluster_1_s4f75.png Graphic file (type png)
+<use figs/cluster_1_s4f75.png>
+Package pdftex.def Info: figs/cluster_1_s4f75.png  used on input line 222.
+(pdftex.def)             Requested size: 187.14873pt x 140.36168pt.
+<figs/label_1_s4f75.png, id=146, 803.0pt x 602.25pt>
+File: figs/label_1_s4f75.png Graphic file (type png)
+<use figs/label_1_s4f75.png>
+Package pdftex.def Info: figs/label_1_s4f75.png  used on input line 222.
+(pdftex.def)             Requested size: 187.14873pt x 140.36168pt.
+
+Overfull \vbox (164.52345pt too high) detected at line 222
+ []
+
+
 Overfull \hbox (45.52718pt too wide) has occurred while \output is active
  [] 
  []
@@ -1116,7 +1124,21 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 
 [11
 
-]
+ <./figs/cluster_1_s4f75.png> <./figs/label_1_s4f75.png>]
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 237--237
+[][][][]  
+ []
+
+<figs/plot-1.png, id=151, 847.7271pt x 1425.8871pt>
+File: figs/plot-1.png Graphic file (type png)
+<use figs/plot-1.png>
+Package pdftex.def Info: figs/plot-1.png  used on input line 237.
+(pdftex.def)             Requested size: 224.58075pt x 377.7495pt.
+
+Overfull \vbox (320.85262pt too high) detected at line 237
+ []
+
+
 Overfull \hbox (45.52718pt too wide) has occurred while \output is active
  [] 
  []
@@ -1128,29 +1150,9 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 
 [12
 
-]
+ <./figs/plot-1.png>]
 Overfull \hbox (2.96399pt too wide) in paragraph at lines 251--251
 [][][][]  
- []
-
-<lib/logos/infw.png, id=204, 638.385pt x 215.30438pt>
-File: lib/logos/infw.png Graphic file (type png)
-<use lib/logos/infw.png>
-Package pdftex.def Info: lib/logos/infw.png  used on input line 251.
-(pdftex.def)             Requested size: 84.35669pt x 28.45274pt.
-
-Overfull \hbox (9.49835pt too wide) in paragraph at lines 251--251
- [][] 
- []
-
-<lib/logos/ufgw.png, id=205, 220.57407pt x 81.30376pt>
-File: lib/logos/ufgw.png Graphic file (type png)
-<use lib/logos/ufgw.png>
-Package pdftex.def Info: lib/logos/ufgw.png  used on input line 251.
-(pdftex.def)             Requested size: 77.19197pt x 28.45274pt.
-
-Overfull \hbox (2.33363pt too wide) in paragraph at lines 251--251
- [][] 
  []
 
 
@@ -1165,7 +1167,12 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 
 [13
 
- <./lib/logos/infw.png> <./lib/logos/ufgw.png>]
+]
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 275--275
+[][][][]  
+ []
+
+
 Overfull \hbox (45.52718pt too wide) has occurred while \output is active
  [] 
  []
@@ -1176,6 +1183,31 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
  []
 
 [14
+
+]
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 283--283
+[][][][]  
+ []
+
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
+(Font)              `T1/Roboto-LF/regular/n' on input line 283.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 20.74pt on input line 283.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
+(Font)              `T1/Roboto-LF/bold/n' on input line 283.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
+(Font)              scaled to size 20.74pt on input line 283.
+
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[15
 
 ]
 \tf@nav=\write6
@@ -1193,21 +1225,21 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: 2074753EB3F1CEC4C82471164194A481;862.
+(rerunfilecheck)             Checksum: 56FB8649A2DDC8C1250FE52653BC19AB;650.
  ) 
 Here is how much of TeX's memory you used:
- 28492 strings out of 474222
- 558789 string characters out of 5748733
+ 28360 strings out of 474222
+ 555477 string characters out of 5748733
  1934975 words of memory out of 5000000
- 50102 multiletter control sequences out of 15000+600000
- 668514 words of font info for 108 fonts, out of 8000000 for 9000
+ 49978 multiletter control sequences out of 15000+600000
+ 652260 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,19n,123p,491b,744s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on presentation.pdf (14 pages, 5403512 bytes).
+ 128i,14n,123p,457b,974s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on presentation.pdf (15 pages, 6228067 bytes).
 PDF statistics:
- 278 PDF objects out of 1000 (max. 8388607)
- 174 compressed objects within 2 object streams
- 38 named destinations out of 1000 (max. 500000)
- 154 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 199 PDF objects out of 1000 (max. 8388607)
+ 130 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 143 words of extra memory for PDF output out of 10000 (max. 10000000)
 
