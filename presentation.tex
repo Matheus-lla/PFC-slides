@@ -1,5 +1,6 @@
 \documentclass[aspectratio=169,t,xcolor=table]{beamer}
 \usepackage[utf8]{inputenc}
+\usepackage{lmodern}
 
 \usepackage{booktabs} 
 \usepackage{subcaption}
@@ -33,16 +34,16 @@
 \begin{document}
 \title[Inf UFG]{Segmentação Semântica de Nuvens de Pontos LiDAR}
 \subtitle{Uma Abordagem Híbrida Combinando Processamento Geométrico
-com Aprendizado Profundo}
+    com Aprendizado Profundo}
 
 \author{Matheus Leonel de Andrade\inst{1}}
 
 \institute[UFG] % (optional)
 {
-  \inst{1}%
-  Instituto de Informática\\
-  Universidade Federal de Goiás
-  \and
+    \inst{1}%
+    Instituto de Informática\\
+    Universidade Federal de Goiás
+    \and
 }
 \date{2025}
 %-----------------------The next statement creates the title page.
@@ -53,7 +54,7 @@ com Aprendizado Profundo}
 \setLayout{vertical} % This command define the layout. 'vertical' can be replace with 'horizontal', 'blank, 'mainpoint', 'titlepage'
 
 \begin{frame}
-    \frametitle{Roteiro}
+    \frametitle{Sumário}
     \tableofcontents
 \end{frame}
 %---------------------------------------------------------
@@ -75,27 +76,51 @@ com Aprendizado Profundo}
 \begin{frame}
     \frametitle{Motivação}
     \begin{itemize}
-        \item<+-> A percepção 3D do ambiente é um pilar fundamental para sistemas autônomos (veículos autônomos, robótica móvel).
-        \item<+-> Sensores LiDAR (Light Detection and Ranging) são essenciais, fornecendo nuvens de pontos 3D densas e precisas.
-        \item<+-> \textbf{Desafio:} Processar e interpretar o grande volume de dados das nuvens de pontos (alta dimensionalidade, esparsas, desordenadas) de forma eficiente.
+        \item<+-> A percepção 3D do ambiente é um pilar fundamental para
+              sistemas autônomos (veículos autônomos, robótica móvel).
+        \item<+-> Nesse sentido os sensores LiDAR (Light Detection and Ranging)
+              se destacam pois fornecem nuvens de pontos 3D, permitindo a
+              analise detalhada da geometria do ambiente.
+        \item<+-> \textbf{Desafio:} Processar e interpretar o grande volume de
+              dados das nuvens de pontos de forma eficiente, já que sensores
+              LiDAR modernos podem capturar mais de 100.000 pontos por varredura.
     \end{itemize}
 \end{frame}
 
 \begin{frame}
     \frametitle{Problema de Pesquisa}
     \begin{itemize}
-        \item<+-> Algoritmos de segmentação e classificação de nuvens de pontos ainda possuem limitações em robustez, escalabilidade e generalização.
-        \item<+-> Abordagens baseadas em Deep Learning (e.g., PointNet, KPConv) alcançam alta acurácia, mas exigem alto custo computacional, dificultando o uso em sistemas com recursos limitados.
-        \item<+-> A segmentação do solo e a clusterização de objetos são etapas críticas e desafiadoras.
+        \item<+-> Algoritmos de segmentação e classificação de nuvens de pontos
+              ainda possuem limitações em robustez, escalabilidade e
+              generalização.
+        \item<+-> Abordagens baseadas em Deep Learning (e.g., PointNet, KPConv)
+              alcançam uma boa acurácia, mas exigem alto custo computacional.
+        \item<+-> A segmentação do solo e a clusterização de objetos são etapas
+              críticas e desafiadoras.
+              \begin{itemize}
+                  \item<+-> A identificação do solo, serve como base para
+                        detecção de obstáculos, e planejamento de rotas, por
+                        exemplo.
+                  \item<+-> Da mesma forma, a clusterização e classificação de
+                        objetos, é fundamental para a tomada de decisões
+                        seguras em sistemas autônomo.
+              \end{itemize}
     \end{itemize}
 \end{frame}
 
 \begin{frame}
     \frametitle{Objetivos}
     \begin{itemize}
-        \item<+-> \textbf{Objetivo Principal:} Desenvolver e avaliar um pipeline eficiente para segmentação e classificação semântica de nuvens de pontos LiDAR.
-        \item<+-> \textbf{Abordagem Híbrida:} Combinar a eficiência de métodos clássicos de processamento geométrico com o poder de generalização de técnicas de aprendizado profundo.
-        \item<+-> \textbf{Hipótese:} Investigar se a redução da dimensionalidade, através da clusterização, preserva informação semântica suficiente para uma classificação eficaz, equilibrando acurácia e custo computacional.
+        \item<+-> \textbf{Objetivo Principal:} Desenvolver e avaliar um
+              pipeline para segmentação e classificação semântica de
+              nuvens de pontos LiDAR.
+        \item<+-> \textbf{Abordagem Híbrida:} Combinar a eficiência de métodos
+              clássicos de processamento geométrico com o poder de
+              generalização de técnicas de aprendizado profundo.
+        \item<+-> \textbf{Hipótese:} Investigar se a redução da
+              dimensionalidade, através da clusterização, preserva informação
+              semântica suficiente para uma classificação eficaz, equilibrando
+              acurácia e custo computacional.
     \end{itemize}
 \end{frame}
 
@@ -114,13 +139,12 @@ com Aprendizado Profundo}
 \begin{frame}
     \frametitle{Conceitos Fundamentais}
     \begin{columns}[T]
-       \begin{column}{.5\textwidth}
+        \begin{column}{.5\textwidth}
             \begin{block}{Nuvens de Pontos 3D}
                 \begin{itemize}
                     \item<+-> Conjunto de pontos com coordenadas (x, y, z).
                     \item<+-> Representação direta da geometria da cena.
                     \item<+-> Dados não estruturados, esparsos e com densidade variável.
-                    \item<+-> LiDAR gera padrão de "scanlines".
                 \end{itemize}
             \end{block}
         \end{column}
@@ -135,6 +159,52 @@ com Aprendizado Profundo}
     \end{columns}
 \end{frame}
 
+\begin{frame}
+    \frametitle{Principais Desafios}
+    \begin{columns}[T]
+        \begin{column}{.5\textwidth}
+            \begin{block}{Características dos Dados}
+                \begin{itemize}
+                    \item<+-> Irregularidade (sem estrutura de grade)
+                    \item<+-> Densidade variável com distância
+                    \item<+-> Grande volume de dados
+                \end{itemize}
+            \end{block}
+        \end{column}
+        \begin{column}{.5\textwidth}
+            \begin{block}{Limitações Práticas}
+                \begin{itemize}
+                    \item<+-> Oclusões e dados incompletos
+                    \item<+-> Processamento em tempo real
+                    \item<+-> Generalização entre ambientes
+                \end{itemize}
+            \end{block}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Características dos Algoritmos Utilizados}
+    \begin{itemize}
+        \item<+-> \textbf{Ground Plane Fitting (GPF)} - Segmentação do Solo:
+              \begin{itemize}
+                  \item<+-> Modela solo como plano estimado por SVD
+                  \item<+-> Limitado a terrenos regulares
+              \end{itemize}
+        \item<+-> \textbf{Scan Line Run (SLR)} - Clusterização:
+              \begin{itemize}
+                  \item<+-> Explora estrutura sequencial das scanlines LiDAR
+                  \item<+-> Agrupa pontos por proximidade dentro de cada linha
+                  \item<+-> Fusão de clusters entre scanlines adjacentes
+              \end{itemize}
+        \item<+-> \textbf{PointNet} - Classificação Semântica:
+              \begin{itemize}
+                  \item<+-> Processa coordenadas 3D diretamente (sem projeção)
+                  \item<+-> Invariante a permutações
+                  \item<+-> T-Net para alinhamento espacial
+              \end{itemize}
+    \end{itemize}
+\end{frame}
 
 %---------------------------------------------------------
 \section{Metodologia}
@@ -152,18 +222,35 @@ com Aprendizado Profundo}
     \frametitle{Pipeline Proposto}
     \begin{figure}
         \centering
-        % Placeholder text instead of image
         \fbox{
-            \begin{minipage}{0.9\textwidth}
+            \begin{minipage}{0.85\textwidth}
                 \centering
+                \vspace{0.1cm}
                 \textbf{1. Nuvem de Pontos Bruta (Entrada)} \\
+                \vspace{0.1cm}
                 $\downarrow$ \\
+                \vspace{0.1cm}
+
                 \textbf{2. Pré-processamento} \\
-                (GPF para Segmentação do Solo + SLR para Clusterização) \\
+                % Caixa interna para pré-processamento
+                \fbox{
+                    \begin{minipage}{0.85\textwidth}
+                        \centering
+                        \vspace{0.1cm}
+                        \textbf{2.1 GPF (Segmentação do Solo)} \\
+                        $\downarrow$ \\
+                        \textbf{2.2 SLR (Clusterização)} \\
+                        $\downarrow$ \\
+                        \textbf{2.3 Extração de Características}
+                        \vspace{0.1cm}
+                    \end{minipage}
+                }
+
+                \vspace{0.1cm}
                 $\downarrow$ \\
-                \textbf{3. Extração de Características por Cluster} \\
-                $\downarrow$ \\
-                \textbf{4. Classificação com PointNet (Saída)}
+                \vspace{0.1cm}
+                \textbf{3. Classificação com PointNet (Saída)}
+                \vspace{0.1cm}
             \end{minipage}
         }
     \end{figure}
@@ -172,10 +259,12 @@ com Aprendizado Profundo}
 \begin{frame}
     \frametitle{Dataset: SemanticKITTI}
     \begin{itemize}
-        \item<+-> Benchmark de referência para percepção 3D em condução autônoma.
-        \item<+-> Extensão semântica do KITTI Vision Benchmark.
-        \item<+-> Fornece anotações semânticas densas para nuvens de pontos capturadas por um LiDAR Velodyne HDL-64E.
-        \item<+-> Foco do trabalho em 20 classes semânticas relevantes para navegação.
+        \item<+-> Benchmark de referência para percepção 3D em direção autônoma.
+        \item<+-> Extensão do KITTI Vision Benchmark.
+        \item<+-> Fornece anotações semânticas densas para nuvens de pontos
+              capturadas por um LiDAR Velodyne HDL-64E.
+        \item<+-> Foco do trabalho em 20 classes semânticas relevantes para
+              navegação.
     \end{itemize}
 \end{frame}
 
@@ -184,7 +273,8 @@ com Aprendizado Profundo}
     \begin{figure}
         \centering
         \includegraphics [width=0.5\textwidth]{figs/final-true1t.png}
-        \caption {Exemplo de uma cena do SemanticKITTI com rótulos semânticos.}
+        \caption {Exemplo de uma cena do SemanticKITTI com rótulos semânticos.
+            (sequencia 7 - frame 993)}
     \end{figure}
 \end{frame}
 
@@ -194,7 +284,7 @@ com Aprendizado Profundo}
         \begin{column}{.4\textwidth}
             \begin{block}{Objetivo}
                 \vspace{1.5em}
-                Identificar e remover os pontos pertencentes ao solo.
+                Identificar os pontos pertencentes ao solo.
                 \vspace{1.5em}
             \end{block}
             \begin{block}{Algoritmo}
@@ -206,10 +296,13 @@ com Aprendizado Profundo}
         \begin{column}{.6\textwidth}
             \begin{block}{Como funciona}
                 \begin{enumerate}[<+->]
-                    \item A nuvem de pontos é dividida em setores angulares.
-                    \item Em cada setor, o solo é modelado como um plano.
-                    \item O plano é estimado de forma iterativa usando SVD sobre os pontos de menor altura.
-                    \item Pontos próximos ao plano estimado são classificados como solo.
+                    \item Seleção dos pontos sementes.
+                    \item Estimativa do plano: calcula o LRP, em seguida aplica
+                          SVD para obter o vetor normal do plano.
+                    \item Refinamento iterativo: inclui pontos próximos do plano
+                          (< limiar) em iterações sucessivas, e repete o item 2.
+                    \item Classificação final: pontos do solo recebem label
+                          específico.
                 \end{enumerate}
             \end{block}
         \end{column}
@@ -234,11 +327,51 @@ com Aprendizado Profundo}
         \begin{column}{.6\textwidth}
             \begin{block}{Como funciona}
                 \begin{enumerate}[<+->]
-                    \item Explora a estrutura sequencial das scanlines do LiDAR.
-                    \item Pontos em uma mesma scanline são agrupados com base na proximidade.
-                    \item Clusters de scanlines adjacentes são fundidos se estiverem próximos.
-                    \item Resultado: Uma lista de clusters, cada um representando um potencial objeto.
+                    \item Agrupamento inicial por scanline preservando estrutura sequencial LiDAR.
+                    \item Identificação de "runs": segmentos contínuos com distância < limiar.
+                    \item Propagação de rótulos entre scanlines adjacentes (< limiar).
+                    \item Resolução de equivalências via tabela para fundir rótulos duplicados.
+                    \item Atribuição final: cada cluster recebe identificador único.
                 \end{enumerate}
+            \end{block}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Pré-processamento: Extração de Características}
+    \begin{columns}[T]
+        \begin{column}{.4\textwidth}
+            \begin{block}{Objetivo}
+                \vspace{1.5em}
+                Extrair vetor de características para cada cluster gerado pelo SLR.
+                \vspace{1.5em}
+            \end{block}
+            \begin{block}{Saída}
+                \vspace{1.5em}
+                Vetor de 24 características + 2 rótulos por cluster.
+                \vspace{1.5em}
+            \end{block}
+        \end{column}
+        \begin{column}{.6\textwidth}
+            \begin{block}{Características Extraídas}
+                \begin{itemize}[<+->]
+                    \item Posição espacial (9 valores):
+                          \begin{itemize}
+                              \item Centroide (x, y, z) - posição central
+                              \item Bounding box: pontos mín/máx (x, y, z)
+                          \end{itemize}
+                    \item Distribuição espacial (15 valores):
+                          \begin{itemize}
+                              \item Histogramas X, Y, Z (5 bins cada)
+                              \item Capturam forma e orientação do cluster
+                          \end{itemize}
+                    \item Rótulos (2 valores):
+                          \begin{itemize}
+                              \item True label (anotação ground truth)
+                              \item Predicted label (placeholder para classificação)
+                          \end{itemize}
+                \end{itemize}
             \end{block}
         \end{column}
     \end{columns}
@@ -362,13 +495,13 @@ com Aprendizado Profundo}
 \begin{frame}
     \centering
     \vspace{3cm}
-    
+
     \textbf{\Huge Obrigado!}
-    
+
     \vspace{1cm}
-    
+
     \textbf{\Large Perguntas?}
-    
+
     \vspace{3cm}
     \begin{figure}
         \centering
@@ -376,7 +509,7 @@ com Aprendizado Profundo}
             \centering
             \includegraphics[height=1.5cm]{lib/logos/infw.png}
         \end{subfigure}%
-        \qquad 
+        \qquad
         \begin{subfigure}{0.2\textwidth}
             \centering
             \includegraphics[height=1.5cm]{lib/logos/ufgw.png}
