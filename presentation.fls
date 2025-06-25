@@ -589,6 +589,7 @@ INPUT ./figs/plot-6.png
 INPUT ./figs/plot-6.png
 INPUT ./figs/plot-6.png
 INPUT ./figs/plot-6.png
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/google/roboto/Roboto-Regular-lf-t1.tfm
 INPUT ./lib/logos/infw.png
 INPUT ./lib/logos/infw.png
 INPUT ./lib/logos/infw.png
@@ -599,6 +600,8 @@ INPUT ./lib/logos/ufgw.png
 INPUT ./lib/logos/ufgw.png
 INPUT ./lib/logos/ufgw.png
 INPUT ./lib/logos/ufgw.png
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/google/roboto/Roboto-Regular-lf-t1.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/google/roboto/Roboto-Regular-lf-t1--base.tfm
 OUTPUT presentation.nav
 OUTPUT presentation.toc
 OUTPUT presentation.snm

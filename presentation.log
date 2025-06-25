@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.5.21)  25 JUN 2025 19:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.5.21)  25 JUN 2025 19:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2416,7 +2416,7 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 [92
 
 ]
-Overfull \hbox (2.96399pt too wide) in paragraph at lines 558--558
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 570--570
 [][][][]  
  []
 
@@ -2517,32 +2517,68 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 [100
 
 ]
-Overfull \hbox (2.96399pt too wide) in paragraph at lines 585--585
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[101
+
+]
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[102
+
+]
+Overfull \hbox (45.52718pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (2.96399pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[103
+
+]
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 595--595
 [][][][]  
  []
 
-<lib/logos/infw.png, id=639, 638.385pt x 215.30438pt>
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
+(Font)              `T1/Roboto-LF/regular/n' on input line 595.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 9.0pt on input line 595.
+<lib/logos/infw.png, id=655, 638.385pt x 215.30438pt>
 File: lib/logos/infw.png Graphic file (type png)
 <use lib/logos/infw.png>
-Package pdftex.def Info: lib/logos/infw.png  used on input line 585.
-(pdftex.def)             Requested size: 126.54478pt x 42.67912pt.
+Package pdftex.def Info: lib/logos/infw.png  used on input line 595.
+(pdftex.def)             Requested size: 84.35669pt x 28.45274pt.
 
-Overfull \hbox (51.68645pt too wide) in paragraph at lines 585--585
+Overfull \hbox (9.49835pt too wide) in paragraph at lines 595--595
  [][] 
  []
 
-<lib/logos/ufgw.png, id=640, 220.57407pt x 81.30376pt>
+<lib/logos/ufgw.png, id=656, 220.57407pt x 81.30376pt>
 File: lib/logos/ufgw.png Graphic file (type png)
 <use lib/logos/ufgw.png>
-Package pdftex.def Info: lib/logos/ufgw.png  used on input line 585.
-(pdftex.def)             Requested size: 115.78964pt x 42.67912pt.
+Package pdftex.def Info: lib/logos/ufgw.png  used on input line 595.
+(pdftex.def)             Requested size: 77.19197pt x 28.45274pt.
 
-Overfull \hbox (40.9313pt too wide) in paragraph at lines 585--585
+Overfull \hbox (2.33363pt too wide) in paragraph at lines 595--595
  [][] 
- []
-
-
-Overfull \vbox (43.24524pt too high) detected at line 585
  []
 
 
@@ -2555,7 +2591,7 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[101
+[104
 
  <./lib/logos/infw.png> <./lib/logos/ufgw.png>]
 \tf@nav=\write6
@@ -2576,18 +2612,18 @@ Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: 56FB8649A2DDC8C1250FE52653BC19AB;650.
  ) 
 Here is how much of TeX's memory you used:
- 28853 strings out of 474222
- 564045 string characters out of 5748733
+ 28862 strings out of 474222
+ 564176 string characters out of 5748733
  1938975 words of memory out of 5000000
- 50270 multiletter control sequences out of 15000+600000
- 680491 words of font info for 105 fonts, out of 8000000 for 9000
+ 50272 multiletter control sequences out of 15000+600000
+ 685641 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,19n,123p,457b,1229s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb>
-Output written on presentation.pdf (101 pages, 7350284 bytes).
+Output written on presentation.pdf (104 pages, 7359211 bytes).
 PDF statistics:
- 717 PDF objects out of 1000 (max. 8388607)
- 534 compressed objects within 6 object streams
- 208 named destinations out of 1000 (max. 500000)
+ 734 PDF objects out of 1000 (max. 8388607)
+ 548 compressed objects within 6 object streams
+ 214 named destinations out of 1000 (max. 500000)
  188 words of extra memory for PDF output out of 10000 (max. 10000000)
 

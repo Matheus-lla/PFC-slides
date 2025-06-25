@@ -537,51 +537,60 @@
     \frametitle{Limitações e Trabalhos Futuros}
     \begin{columns}[T]
         \begin{column}{.5\textwidth}
-            \textbf{Limitações}
-            \begin{itemize}
-                \item<+-> Propagação de erros: falhas na segmentação do solo afetam a clusterização e classificação.
-                \item<+-> A clusterização pode fragmentar objetos grandes ou complexos.
-                \item<+-> Validação restrita ao dataset SemanticKITTI.
-                \item<+-> Implementação não otimizada para tempo real.
-            \end{itemize}
+            \begin{block}<+->{Limitações}
+                \begin{itemize}
+                    \item<+-> \textbf{Fragmentação:} clusterização geométrica
+                          pode dividir objetos complexos
+                    \item<+-> \textbf{Generalização limitada:} validação
+                          restrita ao SemanticKITTI
+                    \item<+-> \textbf{Classes minoritárias:} desempenho
+                          inferior em objetos menos representados
+                    \item<+-> \textbf{Otimização:} implementação não adequada
+                          para tempo real
+                \end{itemize}
+            \end{block}
         \end{column}
         \begin{column}{.5\textwidth}
-            \textbf{Trabalhos Futuros}
-            \begin{itemize}
-                \item<+-> Aprimorar a segmentação do solo (modelos mais flexíveis).
-                \item<+-> Enriquecer as características dos clusters (e.g., intensidade, contexto).
-                \item<+-> Otimizar o pipeline para hardware embarcado.
-                \item<+-> Validar em outras plataformas robóticas e com diferentes sensores.
-            \end{itemize}
+            \begin{block}<+->{Trabalhos Futuros}
+                \begin{itemize}
+                    \item<+-> \textbf{Robustez:} métodos de segmentação mais
+                          flexíveis e resilientes
+                    \item<+-> \textbf{Enriquecimento:} incluir intensidade
+                          LiDAR e contexto espacial
+                    \item<+-> \textbf{Generalização:} validar em múltiplos
+                          datasets e sensores
+                    \item<+-> \textbf{Eficiência:} otimização para hardware
+                          embarcado
+                    \item<+-> \textbf{Expansão:} integrar detecção de objetos e
+                          estimativa de pose
+                \end{itemize}
+            \end{block}
         \end{column}
     \end{columns}
 \end{frame}
 
-%---------------------------------------------------------
+%---------------------------------------------------------Slide 9
 \setLayout{blank}
 \begin{frame}
     \centering
-    \vspace{3cm}
-
+    \vspace{2cm}
     \textbf{\Huge Obrigado!}
-
-    \vspace{1cm}
-
-    \textbf{\Large Perguntas?}
-
-    \vspace{3cm}
+    \ \\
+    \textbf{\Large Duvidas ou Sugestões?}
+    \ \\
+    \text{\footnotesize matheus.leonel@discente.ufg.com}
+    \vspace{2cm}
     \begin{figure}
         \centering
         \begin{subfigure}{0.2\textwidth}
             \centering
-            \includegraphics[height=1.5cm]{lib/logos/infw.png}
+            \includegraphics[height=1cm]{lib/logos/infw.png}
         \end{subfigure}%
-        \qquad
+        \qquad 
         \begin{subfigure}{0.2\textwidth}
             \centering
-            \includegraphics[height=1.5cm]{lib/logos/ufgw.png}
+            \includegraphics[height=1cm]{lib/logos/ufgw.png}
         \end{subfigure}
     \end{figure}
 \end{frame}
-
 \end{document}
