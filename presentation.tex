@@ -149,7 +149,7 @@
             \end{block}
         \end{column}
         \begin{column}{.5\textwidth}
-            \begin{block}{Segmentação e Clusterização}
+            \begin{block}<+->{Segmentação e Clusterização}
                 \begin{itemize}
                     \item<+-> \textbf{Segmentação:} Atribuir um rótulo semântico a cada ponto (e.g., solo, carro, prédio).
                     \item<+-> \textbf{Clusterização:} Agrupar pontos próximos que pertencem ao mesmo objeto físico.
@@ -172,7 +172,7 @@
             \end{block}
         \end{column}
         \begin{column}{.5\textwidth}
-            \begin{block}{Limitações Práticas}
+            \begin{block}<+->{Limitações Práticas}
                 \begin{itemize}
                     \item<+-> Oclusões e dados incompletos
                     \item<+-> Processamento em tempo real
@@ -229,8 +229,6 @@
                 \textbf{1. Nuvem de Pontos Bruta (Entrada)} \\
                 \vspace{0.1cm}
                 $\downarrow$ \\
-                \vspace{0.1cm}
-
                 \textbf{2. Pré-processamento} \\
                 % Caixa interna para pré-processamento
                 \fbox{
@@ -283,18 +281,18 @@
     \begin{columns}[T]
         \begin{column}{.4\textwidth}
             \begin{block}{Objetivo}
-                \vspace{1.5em}
+                \vspace{0.5em}
                 Identificar os pontos pertencentes ao solo.
-                \vspace{1.5em}
+                \vspace{0.5em}
             \end{block}
-            \begin{block}{Algoritmo}
-                \vspace{1.5em}
+            \begin{block}<+->{Algoritmo}
+                \vspace{0.5em}
                 Ground Plane Fitting (GPF).
-                \vspace{1.5em}
+                \vspace{0.5em}
             \end{block}
         \end{column}
         \begin{column}{.6\textwidth}
-            \begin{block}{Como funciona}
+            \begin{block}<+->{Como funciona}
                 \begin{enumerate}[<+->]
                     \item Seleção dos pontos sementes.
                     \item Estimativa do plano: calcula o LRP, em seguida aplica
@@ -314,18 +312,18 @@
     \begin{columns}[T]
         \begin{column}{.4\textwidth}
             \begin{block}{Objetivo}
-                \vspace{1.5em}
+                \vspace{0.5em}
                 Agrupar os pontos remanescentes (não-solo) em clusters que representam objetos.
-                \vspace{1.5em}
+                \vspace{0.5em}
             \end{block}
-            \begin{block}{Algoritmo}
-                \vspace{1.5em}
+            \begin{block}<+->{Algoritmo}
+                \vspace{0.5em}
                 Scan Line Run (SLR).
-                \vspace{1.5em}
+                \vspace{0.5em}
             \end{block}
         \end{column}
         \begin{column}{.6\textwidth}
-            \begin{block}{Como funciona}
+            \begin{block}<+->{Como funciona}
                 \begin{enumerate}[<+->]
                     \item Agrupamento inicial por scanline preservando estrutura sequencial LiDAR.
                     \item Identificação de "runs": segmentos contínuos com distância < limiar.
@@ -338,23 +336,24 @@
     \end{columns}
 \end{frame}
 
+
 \begin{frame}
     \frametitle{Pré-processamento: Extração de Características}
     \begin{columns}[T]
         \begin{column}{.4\textwidth}
             \begin{block}{Objetivo}
-                \vspace{1.5em}
+                \vspace{0.5em}
                 Extrair vetor de características para cada cluster gerado pelo SLR.
-                \vspace{1.5em}
+                \vspace{0.5em}
             \end{block}
-            \begin{block}{Saída}
-                \vspace{1.5em}
+            \begin{block}<+->{Saída}
+                \vspace{0.5em}
                 Vetor de 24 características + 2 rótulos por cluster.
-                \vspace{1.5em}
+                \vspace{0.5em}
             \end{block}
         \end{column}
         \begin{column}{.6\textwidth}
-            \begin{block}{Características Extraídas}
+            \begin{block}<+->{Características Extraídas}
                 \begin{itemize}[<+->]
                     \item Posição espacial (9 valores):
                           \begin{itemize}
@@ -377,6 +376,41 @@
     \end{columns}
 \end{frame}
 
+\begin{frame}
+    \frametitle{Classificação: PointNet Modificada}
+    \begin{columns}[T]
+        \begin{column}{.4\textwidth}
+            \begin{block}{Entrada}
+                \vspace{0.5em}
+                Vetores de 24 características
+                \vspace{0.5em}
+            \end{block}
+            \begin{block}<+->{Saida}
+                \vspace{0.5em}
+                Clusters classificados em 20 categorias semânticas.
+                \vspace{0.5em}
+            \end{block}
+        \end{column}
+        \begin{column}{.6\textwidth}
+            \begin{block}<+->{Modificações Implementadas}
+                \begin{itemize}[<+->]
+                    \item Expansão da capacidade:
+                          \begin{itemize}
+                              \item Maior largura (mais canais)
+                              \item Maior profundidade (mais camadas)
+                              \item compensar a redução da dimensionalidade
+                              \item Redução significativa na dimensionalidade
+                                    mitiga custo computacional da expansão do
+                                    modelo.
+                          \end{itemize}
+                    \item Adaptação da entrada para aceirar as 24 características
+                    \item Normalização atualizada de BatchNorm para InstanceNorm1d
+                \end{itemize}
+            \end{block}
+        \end{column}
+    \end{columns}
+\end{frame}
+
 %---------------------------------------------------------
 \section{Resultados}
 %---------------------------------------------------------
@@ -390,53 +424,83 @@
 \setBGColor{UFGBlue}
 
 \begin{frame}
-    \frametitle{Avaliação do Pré-processamento}
-    \begin{columns}[T]
-        \begin{column}{.5\textwidth}
-            \begin{alertblock}{Redução de Dimensionalidade}
-                O pipeline reduziu o número de pontos em \textbf{98,84\%}.
-            \end{alertblock}
-            \begin{itemize}
-                \item<2-> Transforma uma nuvem com $\sim$120.000 pontos em $\sim$1.400 clusters.
-                \item<2-> Redução massiva do custo computacional para a etapa de classificação.
-            \end{itemize}
-            \vspace{1cm}
-            \begin{alertblock}{Consistência Semântica}
-                \textbf{95\%} dos clusters gerados eram "semanticamente puros".
-            \end{alertblock}
-            \begin{itemize}
-                \item<3-> Indica que a clusterização geométrica preserva a separação semântica dos objetos.
-            \end{itemize}
-        \end{column}
-        \begin{column}{.5\textwidth}
-            \begin{figure}
-                \includegraphics<4->[width=\textwidth]{figs/cluster_1_s4f75.png}
-                \caption<4->{Clusters (cores aleatórias).}
-            \end{figure}
-            \begin{figure}
-                \includegraphics<4->[width=\textwidth]{figs/label_1_s4f75.png}
-                \caption<4->{Rótulos verdadeiros.}
-            \end{figure}
-        \end{column}
-    \end{columns}
+    \frametitle{Saida do GPF}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.48\textwidth]{figs/label_2_s4f75.png}
+        \hspace{0.02\textwidth}
+        \includegraphics[width=0.48\textwidth]{figs/gpf_2_s4f75.png}
+        \caption {Comparação entre rótulos reais (esquerda) segmentação predita
+            pelo GPF (direita), sequencia 4 - frame 75.}
+    \end{figure}
 \end{frame}
 
 \begin{frame}
-    \frametitle{Resultados da Classificação}
-    \begin{itemize}
-        \item<+-> Após o pré-processamento, um vetor de características foi extraído para cada cluster.
-        \item<+-> Uma rede PointNet simplificada foi usada para classificar cada cluster.
-    \end{itemize}
-    \begin{alertblock}{Acurácia de Classificação}
-        O modelo alcançou \textbf{93,27\%} de acurácia na classificação dos clusters.
-    \end{alertblock}
-    \begin{itemize}
-        \item<+-> \textbf{Conclusão:} A representação compacta em clusters, mesmo após uma redução de dados de >98\%, reteve informação suficiente para uma classificação semântica de alta qualidade.
-    \end{itemize}
+    \frametitle{Saida do SLR}
     \begin{figure}
         \centering
-        \includegraphics<+->[width=0.6\textwidth]{figs/plot-1.png}
-        \caption<+->{Matriz de confusão normalizada (exemplo).}
+        \includegraphics[width=0.48\textwidth]{figs/slr_2_s4f75.png}
+        \caption {Saida do SLR, sequencia 4 - frame 75.}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Analise dos Clusters Inconsistentes}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.48\textwidth]{figs/plot-5.png}
+        \caption {Combinações mais frequentes dos clusters inconsistentes, sequencia 0.}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Analise dos Clusters Inconsistentes}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.48\textwidth]{figs/plot-3.png}
+        \caption {Gráfico de analise dos clusters inconsistentes, sequencia 0.}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Clusters após Extração de Características}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.48\textwidth]{figs/label_2_s4f75.png}
+        \hspace{0.02\textwidth}
+        \includegraphics[width=0.48\textwidth]{figs/cluster_2_s4f75.png}
+        \caption {Comparação dos dados originais (esquerda) com os clusters
+            após extração de características (direita), sequencia 4 - frame 75.}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Avaliação da Redução de Dimensionalidade}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.75\textwidth]{figs/plot-1-2.png}
+        \caption {Gráfico de analise da redução de dimensionalidade, sequencia 0.}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Classificação}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.48\textwidth]{figs/final-true2t.png}
+        \hspace{0.02\textwidth}
+        \includegraphics[width=0.48\textwidth]{figs/final-predt.png}
+        \caption {Comparação entre cluster obtidos (esquerda) com a
+            classificação do modelo (direita), sequencia 7 - frame 993.}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Desempenho do Modelo}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.75\textwidth]{figs/plot-6.png}
+        \caption {Gráfico da distribuição de acu, sequencia 0.}
     \end{figure}
 \end{frame}
 
@@ -455,15 +519,18 @@
 \begin{frame}
     \frametitle{Conclusões}
     \begin{itemize}
-        \item<+-> O trabalho validou um pipeline híbrido que combina processamento geométrico clássico com aprendizado profundo para segmentação semântica de nuvens de pontos.
-        \item<+-> A abordagem demonstrou um excelente equilíbrio entre eficiência computacional e acurácia.
+        \item<+-> O trabalho validou um pipeline híbrido que combina
+              processamento geométrico clássico com aprendizado profundo para
+              segmentação semântica de nuvens de pontos.
+        \item<+-> Os resultados (redução de 98.8\%, acurácia de 93.3\%)
+              confirmam a viabilidade da metodologia para aplicações que
+              demandam eficiência.
     \end{itemize}
-    \begin{alertblock}{Principal Contribuição}
-        Demonstração de que é possível comprimir drasticamente nuvens de pontos LiDAR em representações de clusters, preservando a informação semântica essencial para a classificação.
+    \begin{alertblock}<+->{Principal Contribuição}
+        Demonstração de que é possível comprimir drasticamente nuvens de pontos
+        LiDAR em representações de clusters, preservando a informação semântica
+        essencial para a classificação.
     \end{alertblock}
-    \begin{itemize}
-        \item<+-> Os resultados (redução de 98.8\%, acurácia de 93.3\%) confirmam a viabilidade da metodologia para aplicações que demandam eficiência.
-    \end{itemize}
 \end{frame}
 
 \begin{frame}
