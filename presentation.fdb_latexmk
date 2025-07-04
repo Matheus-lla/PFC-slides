@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1750889421.66036 "/home/matheus/Desktop/faculdade/PFC-slides/presentation.tex" "presentation.pdf" "presentation" 1750889426.1911 0
+["pdflatex"] 1750934468.92818 "/home/matheus/Desktop/faculdade/PFC-slides/presentation.tex" "presentation.pdf" "presentation" 1750934473.36821 0
   "/etc/texmf/web2c/texmf.cnf" 1747835485.01252 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/matheus/Desktop/faculdade/PFC-slides/presentation.tex" 1750889417.45023 22222 819945d667e364092e83f21e8f4ef851 ""
+  "/home/matheus/Desktop/faculdade/PFC-slides/presentation.tex" 1750934464.39256 22074 91675cbce38ae1cc29bd8ffe245ee071 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/roboto/rbto_b5rac7.enc" 1576101225 3075 0696ceafc85b8352a913efb9ba64bc17 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/google/roboto/Roboto-Bold-lf-t1--base.tfm" 1576101225 1840 1834297dad21c65d0f959ffe1bfe4fbd ""
@@ -269,11 +269,11 @@
   "lib/logos/infw2.png" 1750776020 11467 11360d7f99f9699a96b9b047076aeaf0 ""
   "lib/logos/ufg_black.pdf" 1750776020 391083 d600093531d89162512d068389047ff5 ""
   "lib/logos/ufgw.png" 1750776020 4534 24f7d8eda68b37e345c8997c3c70fb8a ""
-  "presentation.aux" 1750889426.07427 5960 5e66646568b5534b3769cc2ecf528090 "pdflatex"
-  "presentation.nav" 1750889426.07527 3922 7f2bbed5ed89a92b31a74f522938a00c "pdflatex"
-  "presentation.out" 1750889426.07527 650 56fb8649a2ddc8c1250fe52653bc19ab "pdflatex"
-  "presentation.tex" 1750889417.45023 22222 819945d667e364092e83f21e8f4ef851 ""
-  "presentation.toc" 1750889426.07527 271 fd924d4a68d7fd92c089a24570544a8f "pdflatex"
+  "presentation.aux" 1750934473.25657 5960 4ede277160bce71bb8da45993065e460 "pdflatex"
+  "presentation.nav" 1750934473.25757 3922 5fd9e25b2083e99b60476fd2f519c14c "pdflatex"
+  "presentation.out" 1750934473.25757 650 56fb8649a2ddc8c1250fe52653bc19ab "pdflatex"
+  "presentation.tex" 1750934464.39256 22074 91675cbce38ae1cc29bd8ffe245ee071 ""
+  "presentation.toc" 1750934473.25757 271 fd924d4a68d7fd92c089a24570544a8f "pdflatex"
   (generated)
   "presentation.aux"
   "presentation.log"

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.5.21)  25 JUN 2025 19:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.5.21)  26 JUN 2025 07:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2191,15 +2191,15 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 [81
 
  <./figs/label_2_s4f75.png> <./figs/gpf_2_s4f75.png>]
-Overfull \hbox (2.96399pt too wide) in paragraph at lines 445--445
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 446--446
 [][][][]  
  []
 
-<figs/slr_2_s4f75.png, id=529, 803.0pt x 602.25pt>
-File: figs/slr_2_s4f75.png Graphic file (type png)
-<use figs/slr_2_s4f75.png>
-Package pdftex.def Info: figs/slr_2_s4f75.png  used on input line 445.
-(pdftex.def)             Requested size: 179.66118pt x 134.74686pt.
+<figs/plot-5.png, id=529, 847.0044pt x 770.3982pt>
+File: figs/plot-5.png Graphic file (type png)
+<use figs/plot-5.png>
+Package pdftex.def Info: figs/plot-5.png  used on input line 446.
+(pdftex.def)             Requested size: 179.66118pt x 163.41063pt.
 
 Overfull \hbox (45.52718pt too wide) has occurred while \output is active
  [] 
@@ -2212,16 +2212,16 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 
 [82
 
- <./figs/slr_2_s4f75.png>]
-Overfull \hbox (2.96399pt too wide) in paragraph at lines 454--454
+ <./figs/plot-5.png>]
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 455--455
 [][][][]  
  []
 
-<figs/plot-5.png, id=535, 847.0044pt x 770.3982pt>
-File: figs/plot-5.png Graphic file (type png)
-<use figs/plot-5.png>
-Package pdftex.def Info: figs/plot-5.png  used on input line 454.
-(pdftex.def)             Requested size: 179.66118pt x 163.41063pt.
+<figs/slr_2_s4f75.png, id=536, 803.0pt x 602.25pt>
+File: figs/slr_2_s4f75.png Graphic file (type png)
+<use figs/slr_2_s4f75.png>
+Package pdftex.def Info: figs/slr_2_s4f75.png  used on input line 455.
+(pdftex.def)             Requested size: 179.66118pt x 134.74686pt.
 
 Overfull \hbox (45.52718pt too wide) has occurred while \output is active
  [] 
@@ -2234,18 +2234,18 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 
 [83
 
- <./figs/plot-5.png>]
-Overfull \hbox (2.96399pt too wide) in paragraph at lines 463--463
+ <./figs/slr_2_s4f75.png>]
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 464--464
 [][][][]  
  []
 
 <figs/plot-3.png, id=542, 847.968pt x 848.2089pt>
 File: figs/plot-3.png Graphic file (type png)
 <use figs/plot-3.png>
-Package pdftex.def Info: figs/plot-3.png  used on input line 463.
+Package pdftex.def Info: figs/plot-3.png  used on input line 464.
 (pdftex.def)             Requested size: 179.66118pt x 179.70811pt.
 
-Overfull \vbox (10.68979pt too high) detected at line 463
+Overfull \vbox (10.68979pt too high) detected at line 464
  []
 
 
@@ -2261,18 +2261,18 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 [84
 
  <./figs/plot-3.png>]
-Overfull \hbox (2.96399pt too wide) in paragraph at lines 475--475
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 476--476
 [][][][]  
  []
 
 File: figs/label_2_s4f75.png Graphic file (type png)
 <use figs/label_2_s4f75.png>
-Package pdftex.def Info: figs/label_2_s4f75.png  used on input line 475.
+Package pdftex.def Info: figs/label_2_s4f75.png  used on input line 476.
 (pdftex.def)             Requested size: 179.66118pt x 134.74686pt.
 <figs/cluster_2_s4f75.png, id=549, 803.0pt x 602.25pt>
 File: figs/cluster_2_s4f75.png Graphic file (type png)
 <use figs/cluster_2_s4f75.png>
-Package pdftex.def Info: figs/cluster_2_s4f75.png  used on input line 475.
+Package pdftex.def Info: figs/cluster_2_s4f75.png  used on input line 476.
 (pdftex.def)             Requested size: 179.66118pt x 134.74686pt.
 
 Overfull \hbox (45.52718pt too wide) has occurred while \output is active
@@ -2287,14 +2287,14 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 [85
 
  <./figs/cluster_2_s4f75.png>]
-Overfull \hbox (2.96399pt too wide) in paragraph at lines 484--484
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 485--485
 [][][][]  
  []
 
 <figs/plot-1-2.png, id=556, 2291.56125pt x 1354.05875pt>
 File: figs/plot-1-2.png Graphic file (type png)
 <use figs/plot-1-2.png>
-Package pdftex.def Info: figs/plot-1-2.png  used on input line 484.
+Package pdftex.def Info: figs/plot-1-2.png  used on input line 485.
 (pdftex.def)             Requested size: 280.72308pt x 165.86848pt.
 
 Overfull \hbox (45.52718pt too wide) has occurred while \output is active
@@ -2309,19 +2309,19 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 [86
 
  <./figs/plot-1-2.png>]
-Overfull \hbox (2.96399pt too wide) in paragraph at lines 496--496
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 497--497
 [][][][]  
  []
 
 <figs/final-true2t.png, id=563, 803.0pt x 602.25pt>
 File: figs/final-true2t.png Graphic file (type png)
 <use figs/final-true2t.png>
-Package pdftex.def Info: figs/final-true2t.png  used on input line 496.
+Package pdftex.def Info: figs/final-true2t.png  used on input line 497.
 (pdftex.def)             Requested size: 179.66118pt x 134.74686pt.
 <figs/final-predt.png, id=564, 803.0pt x 602.25pt>
 File: figs/final-predt.png Graphic file (type png)
 <use figs/final-predt.png>
-Package pdftex.def Info: figs/final-predt.png  used on input line 496.
+Package pdftex.def Info: figs/final-predt.png  used on input line 497.
 (pdftex.def)             Requested size: 179.66118pt x 134.74686pt.
 
 Overfull \hbox (45.52718pt too wide) has occurred while \output is active
@@ -2336,14 +2336,14 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 [87
 
  <./figs/final-true2t.png> <./figs/final-predt.png>]
-Overfull \hbox (2.96399pt too wide) in paragraph at lines 505--505
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 506--506
 [][][][]  
  []
 
 <figs/plot-6.png, id=570, 633.8079pt x 329.5512pt>
 File: figs/plot-6.png Graphic file (type png)
 <use figs/plot-6.png>
-Package pdftex.def Info: figs/plot-6.png  used on input line 505.
+Package pdftex.def Info: figs/plot-6.png  used on input line 506.
 (pdftex.def)             Requested size: 280.72308pt x 145.96844pt.
 
 Overfull \hbox (45.52718pt too wide) has occurred while \output is active
@@ -2358,7 +2358,7 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 [88
 
  <./figs/plot-6.png>]
-Overfull \hbox (2.96399pt too wide) in paragraph at lines 515--515
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 516--516
 [][][][]  
  []
 
@@ -2416,7 +2416,7 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 [92
 
 ]
-Overfull \hbox (2.96399pt too wide) in paragraph at lines 570--570
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 568--568
 [][][][]  
  []
 
@@ -2541,6 +2541,35 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
 [102
 
 ]
+Overfull \hbox (2.96399pt too wide) in paragraph at lines 593--593
+[][][][]  
+ []
+
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
+(Font)              `T1/Roboto-LF/regular/n' on input line 593.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 9.0pt on input line 593.
+<lib/logos/infw.png, id=649, 638.385pt x 215.30438pt>
+File: lib/logos/infw.png Graphic file (type png)
+<use lib/logos/infw.png>
+Package pdftex.def Info: lib/logos/infw.png  used on input line 593.
+(pdftex.def)             Requested size: 84.35669pt x 28.45274pt.
+
+Overfull \hbox (9.49835pt too wide) in paragraph at lines 593--593
+ [][] 
+ []
+
+<lib/logos/ufgw.png, id=650, 220.57407pt x 81.30376pt>
+File: lib/logos/ufgw.png Graphic file (type png)
+<use lib/logos/ufgw.png>
+Package pdftex.def Info: lib/logos/ufgw.png  used on input line 593.
+(pdftex.def)             Requested size: 77.19197pt x 28.45274pt.
+
+Overfull \hbox (2.33363pt too wide) in paragraph at lines 593--593
+ [][] 
+ []
+
+
 Overfull \hbox (45.52718pt too wide) has occurred while \output is active
  [] 
  []
@@ -2551,47 +2580,6 @@ Overfull \hbox (2.96399pt too wide) has occurred while \output is active
  []
 
 [103
-
-]
-Overfull \hbox (2.96399pt too wide) in paragraph at lines 595--595
-[][][][]  
- []
-
-LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 595.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 9.0pt on input line 595.
-<lib/logos/infw.png, id=655, 638.385pt x 215.30438pt>
-File: lib/logos/infw.png Graphic file (type png)
-<use lib/logos/infw.png>
-Package pdftex.def Info: lib/logos/infw.png  used on input line 595.
-(pdftex.def)             Requested size: 84.35669pt x 28.45274pt.
-
-Overfull \hbox (9.49835pt too wide) in paragraph at lines 595--595
- [][] 
- []
-
-<lib/logos/ufgw.png, id=656, 220.57407pt x 81.30376pt>
-File: lib/logos/ufgw.png Graphic file (type png)
-<use lib/logos/ufgw.png>
-Package pdftex.def Info: lib/logos/ufgw.png  used on input line 595.
-(pdftex.def)             Requested size: 77.19197pt x 28.45274pt.
-
-Overfull \hbox (2.33363pt too wide) in paragraph at lines 595--595
- [][] 
- []
-
-
-Overfull \hbox (45.52718pt too wide) has occurred while \output is active
- [] 
- []
-
-
-Overfull \hbox (2.96399pt too wide) has occurred while \output is active
-[][][][] 
- []
-
-[104
 
  <./lib/logos/infw.png> <./lib/logos/ufgw.png>]
 \tf@nav=\write6
@@ -2612,18 +2600,18 @@ Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: 56FB8649A2DDC8C1250FE52653BC19AB;650.
  ) 
 Here is how much of TeX's memory you used:
- 28862 strings out of 474222
- 564176 string characters out of 5748733
+ 28860 strings out of 474222
+ 564155 string characters out of 5748733
  1938975 words of memory out of 5000000
  50272 multiletter control sequences out of 15000+600000
  685641 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,19n,123p,457b,1229s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb>
-Output written on presentation.pdf (104 pages, 7359211 bytes).
+Output written on presentation.pdf (103 pages, 7357090 bytes).
 PDF statistics:
- 734 PDF objects out of 1000 (max. 8388607)
- 548 compressed objects within 6 object streams
- 214 named destinations out of 1000 (max. 500000)
+ 729 PDF objects out of 1000 (max. 8388607)
+ 544 compressed objects within 6 object streams
+ 212 named destinations out of 1000 (max. 500000)
  188 words of extra memory for PDF output out of 10000 (max. 10000000)
 
